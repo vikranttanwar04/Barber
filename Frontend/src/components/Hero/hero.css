@@ -1,0 +1,15 @@
+#hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./src/assets/undraw_barber_utly.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 660px){
+    #hero{
+        flex-wrap: wrap;
+        background-size: contain;
+    }
+}
