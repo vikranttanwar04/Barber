@@ -8,7 +8,7 @@ export default function Navbar(){
                 <li className="mx-4">My Appointmets</li>
                 <li className="mx-4">Logout</li>
             </ul>
-            <div className=" text-2xl md:hidden">&#9776;</div>
+            <div className="text-2xl md:hidden">&#9776;</div>
         </nav>
     )
 }
