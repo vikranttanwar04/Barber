@@ -3,7 +3,7 @@ import WatchLaterIcon from '@mui/icons-material/WatchLater';
 export default function YourStatus(){
 
     return(
-        <div className="p-4 sm:px-[10%] md:px-[20%]">
+        <div className="p-4">
             <div className="max-w-[50rem] p-4 px-[5rem] rounded-2xl bg-amber-50 border border-gray-500 shadow">
                 <h1 className="text-4xl mb-4 text-[#0A2540] font-semibold">Your Appointment</h1>
                 <div className="max-w-[20rem] mb-4">

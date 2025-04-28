@@ -1,7 +1,7 @@
 export default function Table(){
     
     return(
-        <div className="p-4 sm:px-[10%] md:px-[20%]">
+        <div className="p-4">
             <div className="max-w-[50rem]">
                 <h1 className="text-5xl mb-4 text-[#0A2540] font-semibold">People Before You</h1>
                 <table className="border border-separate border-gray-500 mb-4 rounded-xl shadow w-[100%] bg-amber-50">

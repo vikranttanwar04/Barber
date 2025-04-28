@@ -9,6 +9,7 @@ import Status from './components/Status/Status.jsx';
 import Appointment from './components/Appointment/Appointment.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Signup from './components/Authentication/Signup/Signup.jsx';
+import Login from './components/Authentication/Login/Login.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -20,8 +21,8 @@ createRoot(document.getElementById('root')).render(
         <Route path='/status' element={<Status /> } />
         <Route path='/appointment' element={<Appointment />} />
         <Route path='/signup' element={<Signup /> } />
-        {/* <Route path='/thanks' element={<Thanks />} />
-        <Route path='*' element={<NotFound />} /> */}
+        <Route path='/login' element={<Login /> } />
+        {/* <Route path='*' element={<NotFound />} /> */}
       </Routes>
       <Footer />
     </BrowserRouter>
