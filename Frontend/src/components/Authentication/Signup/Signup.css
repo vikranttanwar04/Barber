@@ -1,0 +1,9 @@
+form input{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+#wrapper{
+    max-width: 30rem;
+    margin: 0 auto;
+}

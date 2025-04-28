@@ -1,0 +1,19 @@
+#book-body{
+    background-image: url('./src/assets/book_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#form div{
+    max-width: 30rem;
+}
+
+#name, #date, #time{
+    width: 100%;
+}
+
+@media (max-width: 660px){
+    #book-body{
+        background-size: contain;
+    }
+}

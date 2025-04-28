@@ -10,21 +10,21 @@ export default function CalAppoint(){
                     <td className="py-2 w-[20rem] text-center">Vikrant</td>
                     <td className="py-2 w-[20rem] text-center">10:00 AM</td>
                     <td className="py-2 w-[20rem] text-center">10:00 AM</td>
-                    <td className="py-2 w-[20rem] text-center"><span className="border p-1 rounded bg-[#d0ebf8] inline-block w-[88px] text-center">Pending</span></td>
+                    <td className="py-2 w-[20rem] text-center"><span className="border p-1 rounded bg-[#d0ebf8] inline-block w-[5.5rem] text-center">Pending</span></td>
                 </tr>
 
                 <tr className="border">
                     <td className="py-2 w-[20rem] text-center">Arjun</td>
                     <td className="py-2 w-[20rem] text-center">10:00 AM</td>
                     <td className="py-2 w-[20rem] text-center">10:00 AM</td>
-                    <td className="py-2 w-[20rem] text-center"><span className="border p-1 rounded bg-[#073349] text-white inline-block w-[88px] text-center">Ongoing</span></td>
+                    <td className="py-2 w-[20rem] text-center"><span className="border p-1 rounded bg-[#073349] text-white inline-block w-[5.5rem] text-center">Ongoing</span></td>
                 </tr>
 
                 <tr className="border">
                     <td className="py-2 w-[20rem] text-center">Ananya</td>
                     <td className="py-2 w-[20rem] text-center">10:00 AM</td>
                     <td className="py-2 w-[20rem] text-center">10:00 AM</td>
-                    <td className="py-2 w-[20rem] text-center"><span className="border p-1 rounded bg-[#13b886] inline-block w-[88px] text-center">Completed</span></td>
+                    <td className="py-2 w-[20rem] text-center"><span className="border p-1 rounded bg-[#13b886] inline-block w-[5.5rem] text-center">Completed</span></td>
                 </tr>
             </table>
         </div>

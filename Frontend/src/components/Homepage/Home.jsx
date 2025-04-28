@@ -1,8 +1,8 @@
-import CalAppoint from "../CalAppoint/CalAppoint";
-import Calender from "../Calender/Calender";
-import Hero from "../Hero/Hero";
+import CalAppoint from "./CalAppoint/CalAppoint";
+import Calender from "./Calender/Calender";
+import Hero from "./Hero/Hero";
 import './Home.css';
-import AppointBar from "../AppointBar/AppointBar";
+import AppointBar from "./AppointBar/AppointBar";
 
 export default function Home() {
   return (
