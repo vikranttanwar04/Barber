@@ -1,6 +1,8 @@
 import WatchLaterIcon from '@mui/icons-material/WatchLater';
 
-export default function YourStatus(){
+export default function YourStatus({data}){
+
+    if(!data) return <p>Data is loading...</p>
 
     return(
         <div className="p-4 sm:px-[10%] md:px-[20%]">
@@ -9,15 +11,15 @@ export default function YourStatus(){
                 <div className="max-w-[20rem] mb-4">
                     <div className="flex justify-between mb-2">
                         <div className="text-xl"><strong>Name:</strong></div>
-                        <div className="text-xl text-justify">Vikrant</div>
+                        <div className="text-xl text-justify">{data.user}</div>
                     </div>
                     <div className="flex justify-between mb-2">
                         <div className="text-xl"><strong>Date:</strong></div>
-                        <div className="text-xl text-justify">April 26, 2025</div>
+                        <div className="text-xl text-justify">{data.date}</div>
                     </div>
                     <div className="flex justify-between mb-2">
                         <div className="text-xl"><strong>Time:</strong></div>
-                        <div className="text-xl text-justify">11:30 AM</div>
+                        <div className="text-xl text-justify">{data.time}</div>
                     </div>
                 </div>
 

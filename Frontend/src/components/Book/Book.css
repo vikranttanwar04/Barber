@@ -12,6 +12,12 @@
     width: 100%;
 }
 
+#dialog-box{
+    max-width: 30rem;
+    /* position: absolute; */
+    /* z-index: 1; */
+}
+
 @media (max-width: 660px){
     #book-body{
         background-size: contain;

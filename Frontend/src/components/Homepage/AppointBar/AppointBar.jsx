@@ -5,11 +5,15 @@ export default function AppointBar(){
             <h1 className="mx-4 mb-5 font-bold text-4xl">Appointments</h1>
             <table className="mb-4 border border-gray-400 border-separate rounded-2xl shadow-xl">
                 <thead className="border rounded-tl-xl">
-                    <th className="py-4 w-[20rem]">Name</th>
-                    <th className="py-4 w-[20rem]">Date</th>
-                    <th className="py-4 w-[20rem]">Time</th>
-                    <th className="py-4 w-[20rem]">Status</th>
+                    <tr>
+                        <th className="py-4 w-[20rem]">Name</th>
+                        <th className="py-4 w-[20rem]">Date</th>
+                        <th className="py-4 w-[20rem]">Time</th>
+                        <th className="py-4 w-[20rem]">Status</th>
+                    </tr>
                 </thead>
+
+                <tbody>
 
                 <tr className="border">
                     <td className="py-4 text-center">Vikrant</td>
@@ -38,6 +42,7 @@ export default function AppointBar(){
                     <td className="py-4 text-center">10:00 AM</td>
                     <td className="py-4 text-center"><span className="inline-block w-[88px] border p-1 rounded bg-[#13b886] text-center">Completed</span></td>
                 </tr>
+                </tbody>
             </table>
         </div>
     )

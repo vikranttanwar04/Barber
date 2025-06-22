@@ -1,0 +1,26 @@
+.overview-container .wrapper{
+    margin: 0 auto;
+}
+
+/* @media (max-width: 363px){
+    .left-right{
+        text-align: center;
+    }
+}
+
+@media (min-width: 450px){
+    .left-right{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+} */
+
+@media (max-width: 511px){
+    .images div{
+        justify-content: center;
+    }
+
+    .overview-header{
+        text-align: center;
+    }
+}
